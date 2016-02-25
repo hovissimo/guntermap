@@ -1,0 +1,21 @@
+.test { color: red; }
+#leaflet { min-height: 600px; }
+
+.leaflet-popup-content table {
+    border: thin solid #999;
+    border-collapse: collapse;
+    
+    td, th {
+        padding: 3px;
+    }
+
+    th {
+        font-weight: bold;
+        border-right: thin solid #999;
+    }
+
+    tr:nth-child(even) {
+        background-color: #eee;
+    }
+}
+
